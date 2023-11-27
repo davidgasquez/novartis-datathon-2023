@@ -9,7 +9,6 @@ You can rely on VSCode Dev Container to get started with the project quickly. Al
 ## 🏆 Previous Editions
 
 - [2021](https://github.com/davidgasquez/novartis-datathon-2021)
-- [2022](https://github.com/JorgeAvilaG/novartis-2022)
 
 ## 🤖 Contributors
 
