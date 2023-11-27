@@ -1,0 +1,35 @@
+{
+    "name": "Novartis",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye",
+    "features": {
+        "ghcr.io/stuartleeks/dev-container-features/shell-history:latest": {},
+        "ghcr.io/devcontainers/features/common-utils:latest": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnSave": true,
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll": true,
+                        "source.organizeImports": true
+                    }
+                },
+                "notebook.formatOnSave.enabled": true,
+                "python.analysis.typeCheckingMode": "basic",
+                "python.analysis.autoImportCompletions": true
+            },
+            "extensions": [
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "EditorConfig.EditorConfig",
+                "charliermarsh.ruff",
+                "ms-python.isort",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -e ."
+}

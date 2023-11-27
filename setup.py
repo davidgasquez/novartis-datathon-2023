@@ -1,0 +1,33 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="src",
+    author="Team 10 The 10 Team",
+    url="https://github.com/davidgasquez/novartis-datathon-2023",
+    packages=find_packages(),
+    install_requires=[
+        "altair",
+        "darts",
+        "duckdb",
+        "ipykernel",
+        "hyperopt",
+        "jupyter",
+        "lightgbm",
+        "matplotlib",
+        "mlforecast",
+        "numpy",
+        "pandas",
+        "pyarrow",
+        "regex",
+        "scikit-learn",
+        "seaborn",
+        "shap",
+        "tsfresh",
+        "tsfeatures",
+        "tqdm",
+        "utilsforecast",
+        "xgboost",
+    ],
+    extras_require={"dev": ["ruff"]},
+    python_requires=">=3.11",
+)
