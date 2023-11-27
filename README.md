@@ -14,6 +14,6 @@ You can rely on VSCode Dev Container to get started with the project quickly. Al
 
 ## 🤖 Contributors
 
-- [Jorge Avila](https://github.com/JorgeAvilaG/)https://github.com/JorgeAvilaG/
-- [Paco González](https://github.com/FGonzalezLopez)https://github.com/FGonzalezLopez
-- [David Gasquez](https://github.com/davidgasquez)https://github.com/davidgasquez
+- [Jorge Avila](https://github.com/JorgeAvilaG/)
+- [Paco González](https://github.com/FGonzalezLopez)
+- [David Gasquez](https://github.com/davidgasquez)
